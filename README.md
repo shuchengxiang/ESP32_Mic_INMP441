@@ -1,0 +1,2 @@
+# ESP32_Mic_INMP441
+ESP32+INMP441模块实现远程获取声音
