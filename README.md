@@ -1,17 +1,17 @@
 # ESP32_Mic_INMP441
 ESP32+INMP441模块实现远程获取声音
-此项目主要参考https://github.com/lixy123/ESP32_Remote_MIC，进行了一些调试、引脚修改和版本固定，感谢大神的贡献，如需参看原项目请点击上方链接
+此项目主要参考https://github.com/lixy123/ESP32_Remote_MIC ,进行了一些调试、引脚修改和版本固定，感谢大神的贡献，如需参看原项目请点击上方链接
 
 ## 功能：
 esp32 网页麦克风终端，可在网页端听取终端接收的声音
 
 ## 硬件:
-ESP32+ INMP441(I2S麦克风模块)
-INMP441 <---> ESP32 , 接线定义见I2S.h
-SCK <---> IO26
-WS <---> IO22
-SD <---> IO21
-L/R <---> GND
+ESP32 + INMP441(I2S麦克风模块)  
+INMP441 <---> ESP32 , 接线定义见I2S.h  
+SCK <---> IO26  
+WS <---> IO22  
+SD <---> IO21  
+L/R <---> GND  
 
 ## 使用方法：
 1. 将data目录中的内容传入spiffs 
